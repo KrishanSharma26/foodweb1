@@ -1,0 +1,36 @@
+.container {
+  width: 90vw;
+  margin: 20px auto;
+  height: 300px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.3);
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.15);
+}
+
+.carouselDiv {
+  height: 100%;
+  position: relative;
+}
+
+.imageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: +1;
+  top: 10%;
+  left: 2%;
+}

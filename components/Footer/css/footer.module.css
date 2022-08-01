@@ -1,0 +1,60 @@
+.footer {
+  width: 90%;
+  margin: 20px auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.15);
+}
+
+.footer span {
+  height: 100%;
+  display: flex;
+  height: auto;
+}
+
+.upperSpan {
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.upperSpan h1 {
+  font-weight: 600;
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+.lowerSpan {
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.lowerSpan div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lowerSpan h3 {
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.lowerSpan li {
+  cursor: pointer;
+}
+
+.socialHandles {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.socialHandles Image {
+  cursor: pointer;
+}

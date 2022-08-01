@@ -1,0 +1,25 @@
+.ChildContainer1 h2 {
+  margin-bottom: 40px;
+}
+
+.ChildContainer1 h3 {
+  font-weight: 500;
+}
+
+.ChildContainer1 h1 {
+  font-size: 20px;
+}
+
+.ChildContainer1 button {
+  font-family: var(--font1);
+  padding: 8px 18px;
+  background: #15325a;
+  backdrop-filter: blur(174px);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-size: 12px;
+  backdrop-filter: blur(174px);
+  margin-top: 40px;
+  cursor: pointer;
+}

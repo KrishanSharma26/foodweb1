@@ -1,0 +1,128 @@
+.productsContainer {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.productsTitle {
+  width: 100%;
+  height: auto;
+  padding: 0 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productsDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+
+.productsTitle p {
+  color: black !important;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.product {
+  display: flex;
+  width: 160px;
+  height: 200px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 5px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(145px);
+  overflow: hidden;
+  position: relative;
+}
+
+.product Image {
+  height: 60%;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 10px;
+  z-index: +1;
+}
+
+.productInfo p {
+  color: black !important;
+  font-size: 12px;
+}
+
+.productInfo h3 {
+  color: black !important;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.info {
+  padding: 3px 0px;
+  width: 80px;
+  background-color: rgba(255, 255, 255, 0.425);
+  font-size: 12px;
+  font-family: var(--font1);
+  border-radius: 4px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info1 {
+  width: 50%;
+  border-right: 1px solid rgb(32 31 31 / 27%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.info2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.svgBlock {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 5px 5px;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1050px) {
+  .product {
+    flex: none;
+    margin: 0 20px;
+  }
+
+  .productsDiv {
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .productsDiv {
+    flex-wrap: wrap;
+  }
+
+  .product {
+    flex: content;
+    margin: 10px 0;
+  }
+}

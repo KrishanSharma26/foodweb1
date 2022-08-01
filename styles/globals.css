@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+html,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(262deg, #fc96bb, #a690fc, white 100.96%);
+}
+
+:root {
+  --font1: 'Poppins', sans-serif;
+  --font2: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+p,
+a,
+li {
+  font-family: var(--font1);
+  color: #211c70;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+  background: #f694bd;
+}
+::-webkit-scrollbar-track {
+  padding: 1px;
+}
+::-webkit-scrollbar-track:hover {
+  border-left: 1px solid rgba(32, 32, 32, 0.664);
+}
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  background: #211c70;
+  border-radius: 20px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #221c70da;
+}

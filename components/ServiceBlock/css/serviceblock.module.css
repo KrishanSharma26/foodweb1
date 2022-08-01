@@ -1,0 +1,19 @@
+.container {
+  border-right: 1px solid rgba(0, 0, 0, 0.37);
+}
+
+.cont1 > h3 {
+  color: black !important;
+  font-size: 15px;
+  font-weight: 500;
+}
+.cont1 h3 {
+  color: black !important;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.cont1 p {
+  color: black !important;
+  font-size: 10px;
+}
